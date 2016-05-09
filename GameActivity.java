@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.Display;
 import android.view.MotionEvent;
 
-class GameActivity extends Activity {
+public class GameActivity extends Activity {
     GameView gameView;
     GameManager _gm;
     InputManager _im;

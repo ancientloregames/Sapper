@@ -8,7 +8,7 @@ import android.widget.Button;
 import android.widget.CheckBox;
 //import android.widget.EditText;
 
-class SettingsActivity extends Activity implements View.OnClickListener {
+public class SettingsActivity extends Activity implements View.OnClickListener {
     GameManager _gm=GameManager.getInstance();
     //LevelManager _lm=LevelManager.getInstance();
     /*EditText gridWidth;

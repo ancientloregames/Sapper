@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-class MenuActivity extends Activity implements View.OnClickListener{
+public class MenuActivity extends Activity implements View.OnClickListener{
     GameManager gm=GameManager.getInstance();
     LevelManager lm=LevelManager.getInstance();
 
@@ -35,6 +35,7 @@ class MenuActivity extends Activity implements View.OnClickListener{
             case R.id.buttonNewGame:
                 gm.reset();
                 lm.reset();
+                NavUtils.navigateUpFromSameTask(this);
                 break;
             case R.id.buttonSettings:
                 Intent i=new Intent(this,SettingsActivity.class);
@@ -42,6 +43,7 @@ class MenuActivity extends Activity implements View.OnClickListener{
                 break;
             case R.id.buttonTutorial:
                 gm.setState(GameState.PAUSE);
+                NavUtils.navigateUpFromSameTask(this);
                 break;
         }
     }
