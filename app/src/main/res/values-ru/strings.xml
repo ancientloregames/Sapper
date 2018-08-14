@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="button_apply">Применить</string>
+    <string name="button_new_game">Новая Игра</string>
+    <string name="button_play">Играть!</string>
+    <string name="button_resume">Продолжить</string>
+    <string name="button_settings">Настройки</string>
+    <string name="button_tutorial">Обучение</string>
+    <string name="cb_debug_mode">Отладка</string>
+    <string name="label_grid_height">Ячеек по вертикали:</string>
+    <string name="title_activity_settings">Настройки</string>
+    <string name="label_mine_count">количество мин:</string>
+    <string name="label_grid_width">Ячеек по горизонтали:</string>
+    <string name="ingame_flag">Флаги</string>
+    <string name="ingame_mines">Мины</string>
+    <string name="ingame_tut_line_1">Нажмите на плитку, чтобы ее открыть. Цифры</string>
+    <string name="ingame_tut_pause">Пауза</string>
+    <string name="ingame_tut_line_2">покажут количество мин вокруг. Кнопка FLAG</string>
+    <string name="ingame_tut_line_3">переводит нажатия в режим пометки мин.</string>
+    <string name="ingame_tut_line_end">[Нажмите на экран, для начала]</string>
+</resources>
